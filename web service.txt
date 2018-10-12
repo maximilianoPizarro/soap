@@ -1,0 +1,23 @@
+--crear proyecto
+
+mvn archetype:generate -DarchetypeGroupId=org.springframework.ws 
+                       -DarchetypeArtifactId=spring-ws-archetype 
+                       -DarchetypeVersion=2.1.4.RELEASE 
+                       -DgroupId=com.tutorialspoint.hr 
+                       -DartifactId=leaveService 
+                       -DinteractiveMode=false
+
+mvn archetype:generate -DgroupId=com.mycompany.app 
+                       -DartifactId=my-app 
+                       -DarchetypeArtifactId=maven-archetype-quickstart 
+                       -DinteractiveMode=false
+                       
+mvn archetype:generate -DarchetypeGroupId=org.springframework.ws -DarchetypeArtifactId=spring-ws-core -DarchetypeVersion=2.4.0.RELEASE -DgroupId=com.tutorialspoint.hr -DartifactId=leaveService                   
+
+mvn org.apache.maven.plugins:maven-archetype-plugin:3.0.0:generate 
+     -DarchetypeGroupId=org.grails 
+     -DarchetypeArtifactId=grails-maven-archetype
+     -DarchetypeVersion=1.0
+     -DarchetypeCatalog=http://snapshots.repository.codehaus.org
+     
+mvn archetype:generate -DarchetypeGroupId=org.springframework.ws -DarchetypeArtifactId=spring-ws-archetype -DarchetypeVersion=2.1.4.RELEASE -DgroupId=com.tutorialspoint.hr -DartifactId=leaveService -DinteractiveMode=false     
